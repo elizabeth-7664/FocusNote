@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.db
+*.sqlite3
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode or IDEs
+.vscode/
+.idea/
+
+# Uvicorn reload cache (if it creates any)
+*.reload
