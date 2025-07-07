@@ -1,4 +1,4 @@
-from sqlalchemy import String, Text, integer, DateTime, func
+from sqlalchemy import String, Text, Integer, DateTime, func
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.ext.asyncio import AsyncAttrs
 
