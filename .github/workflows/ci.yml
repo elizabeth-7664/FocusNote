@@ -26,7 +26,8 @@ jobs:
 
     - name: ✅ Check syntax (dry run)
       run: |
-        python -m py_compile app/*.py
+         python -m py_compile backend/*.py
+
 
     # Optional: Run your tests
     # - name: 🔬 Run tests
